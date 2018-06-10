@@ -1,4 +1,4 @@
-package com.cabbage.hadoop.api;
+package com.cabbage.hadoop.hdfs;
 
 import org.apache.hadoop.fs.FsUrlStreamHandlerFactory;
 
