@@ -1,4 +1,4 @@
-package com.cabbage.hadoop.mr.sampling;
+package com.cabbage.hadoop.mr.sort.sampling;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
