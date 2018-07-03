@@ -32,6 +32,16 @@ public class WordCountMR {
             job.setMapOutputKeyClass(Text.class);
             job.setMapOutputValueClass(IntWritable.class);
 
+            //指定需要缓存一个文件到所有的maptask运行节点工作目录
+
+
+
+            //job.addArchiveToClassPath("");  // 缓存jar包到task节点的classpath中    三方jar的方法： 一种是将jar包打到项目中  第二种是指定路径
+           //  job.addFileToClassPath();//缓存普通文件到task节点的classpath中
+            //job.addCacheArchive(); //缓存归档文件到task运行节点的工作目录
+            //job.addCacheFile(); //缓存普通文件到task运行节点的工作目录
+
+
             //设置reduce 输出 的 K V
             job.setOutputKeyClass(Text.class);
             job.setMapOutputValueClass(IntWritable.class);
